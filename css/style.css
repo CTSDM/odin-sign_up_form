@@ -22,10 +22,11 @@ div.image-lateral {
 }
 
 div.logo {
-    height: 10vh;
+    height: fit-content;
     background-color: rgb(222, 40, 40, 0.7);
     top: 20vh;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -37,7 +38,7 @@ div.logo {
 }
 
 div.logo > img {
-    height: 100%;
+    height: 10vh;
 }
 
 .corporation-message {
@@ -55,6 +56,7 @@ div.logo > img {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 30px;
+    height: 40%;
 }
 
 .bottom {
@@ -100,7 +102,7 @@ input {
 
 input:focus {
     outline-color: #AAAAFF;
-}
+    }
 
 button {
     background-color: #596D48;
@@ -117,4 +119,9 @@ div.has-account > span {
     src:
     local("odin-custom"),
     url("../fonts/Norse-Bold.otf") format("opentype");
+}
+
+#error-message {
+    color: red;
+    min-height: 1.25rem;
 }
