@@ -11,7 +11,7 @@
         <div class="image-lateral">
             <div class="logo">
                 <img src="./pictures/odin-lined.png" alt="odin-">
-                CTSDM
+                ODIN
             </div>
             <img src="./pictures/waffer.jpg" alt="A prototype silicon wafer at the basis of the creation of the creation of our computer circuits by Maxence Pira">
             <div class="credits-picture">
@@ -22,6 +22,7 @@
             <div class="corporation-message">
                 <p><span>This is not a real online service! You know you need something like this 
                     in your life to help you realize your deepest dreams.</span> 
+                <br>
                 <span>Sign up <em>now</em> to get started</span></p>
                 <p>You <em>know</em> you want to.</p>
             </div>
@@ -30,9 +31,9 @@
                 <form id="register-account" action="https://httpbin.org/post" method="post">
                     <div>
                         <div>
-                            <label for="name">FIRST NAME</label>
-                            <input type="text" id="name" name="first-name" placeholder="myname" 
-                            pattern="^[A-Z]+\w{1,}" autocomplete="off" 
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="first-name" placeholder="myname" 
+                            pattern="^[A-Z]+\w{1,}" autocomplete="off"
                             title="First name should have at least two letters and start with a capital letter." autofocus required>
                         </div>                    
                         <div>
@@ -45,11 +46,11 @@
                     <div>
                         <div>
                             <label for="mail">EMAIL</label>
-                            <input type="email" id="mail" name="email" autocomplete="off" placeholder="mail@domain" required>
+                            <input type="email" id="mail" name="email" autocomplete="off" placeholder="mail@domain" required> 
                         </div>                    
                         <div>
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone-number" value="+01-555333111" placeholder="+34 600-000-000"
+                            <input type="tel" id="phone" name="phone-number" placeholder="+34 600-000-000"
                             pattern="\+{1}[0-9]{1,3}-[0-9]{9}"
                             title="Phone number must be: '+(country code)-123456789'." autocomplete="off" required>
                         </div> 
