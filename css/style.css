@@ -12,7 +12,7 @@ body {
 }
 
 div.image-lateral > img {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
@@ -20,6 +20,7 @@ div.image-lateral > img {
 
 div.image-lateral {
     position: relative;
+    width: 40%;
 }
 
 div.logo {
